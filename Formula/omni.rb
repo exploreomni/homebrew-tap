@@ -1,32 +1,32 @@
 class Omni < Formula
   desc "Command-line tool for the Omni API"
   homepage "https://github.com/exploreomni/cli"
-  version "1.1.2"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/exploreomni/cli/releases/download/v1.1.2/omni_1.1.2_darwin_arm64.tar.gz"
-      sha256 "793af4ce7aef3843cb0f8e01132c3e2d55d3f9c6471db16ee42806e2665c3467"
+      url "https://github.com/exploreomni/cli/releases/download/v1.2.0/omni_1.2.0_darwin_arm64.tar.gz"
+      sha256 "159d15444d471a9e8d9e7a0210d6f6714621230f7c76de7f55187b7c5d8d7dae"
     end
 
     on_intel do
-      url "https://github.com/exploreomni/cli/releases/download/v1.1.2/omni_1.1.2_darwin_amd64.tar.gz"
-      sha256 "477411f92f3e1c52ab7bc556c156d141f27ac651f73b5a13c306d02d545f6954"
+      url "https://github.com/exploreomni/cli/releases/download/v1.2.0/omni_1.2.0_darwin_amd64.tar.gz"
+      sha256 "370867d17028c83a2d27e9ddc11198ddac87890c3ed8ed0f0311dd38ab400716"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/exploreomni/cli/releases/download/v1.1.2/omni_1.1.2_linux_arm64.tar.gz"
-        sha256 "9b09a7a0647a29bb4a506045236d46e4cce00730248dc8e0c97690487f0d70b3"
+        url "https://github.com/exploreomni/cli/releases/download/v1.2.0/omni_1.2.0_linux_arm64.tar.gz"
+        sha256 "bffe541cdf7b8890bd931e657564bc8cc0f2ab3d0dbbc2ba9a013f8b0dbe562f"
       end
     end
 
     on_intel do
-      url "https://github.com/exploreomni/cli/releases/download/v1.1.2/omni_1.1.2_linux_amd64.tar.gz"
-      sha256 "4aab0cfc4e611b166fee4671dc61464247aad2431d7b7305dfb39621315f3d48"
+      url "https://github.com/exploreomni/cli/releases/download/v1.2.0/omni_1.2.0_linux_amd64.tar.gz"
+      sha256 "aa4089ba4f4dd4b2a25dd6e8e5f0c2338d20e7a86e7882c049af6a2edecfb294"
     end
   end
 
